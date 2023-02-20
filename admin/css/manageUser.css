@@ -1,0 +1,79 @@
+table,
+    th,
+    td {
+      border: 1px solid black;
+      margin: 60px 0 0 150px;
+    }
+
+   #addUserBtn{
+width: 150px;
+height: 80px;
+background-color: #4CAF50; 
+margin: 25px 0 0 600px;
+color: white ;
+border-radius: 5px;
+transition-duration: 0.4s;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+
+    }
+
+    .button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    
+    .button1 {
+      background-color: #4CAF50; 
+      color: black; 
+      /* border: 2px solid white; */
+      border-radius: 5px;
+    }
+    .button1:hover {
+      background-color: darkgreen;
+      color: white;
+    }
+   
+    .delete {
+      background-color: #f44336; 
+      color: black; 
+      border-radius: 5px;
+    }
+    
+    .delete:hover {
+      background-color: #f44336;
+      color: white;
+    }
+#users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#users td, #users th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#users tr:nth-child(even){background-color: #f2f2f2;}
+
+#users tr:hover {background-color: #ddd;}
+
+#users th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(242, 112, 34);
+  color: white;
+}

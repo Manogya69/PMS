@@ -1,0 +1,54 @@
+/* nav bar begin */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+nav {
+  background-color: rgb(242, 112, 34);
+  height: 80px; 
+  text-align: center;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li a {
+  color: black;
+  background-color: rgb(242, 112, 34);
+  display: block;
+  line-height: 1em;
+  padding: 1em 3em;
+  text-decoration: none;
+}
+
+nav ul li:first-child {
+  margin-right: auto;
+}
+nav ul li a:hover {
+  background-color: red;
+  height: 80px;
+}
+* {
+  box-sizing: border-box;
+}
+/* Nav Bar End */
+
+.logo {
+  max-height: 70px;
+  max-width: 250px;
+  /* height: 80px; */
+}
+#logo {
+  /* max-height: 72px; */
+  max-width: 250px;
+  height: 80px;
+  width: 250px;
+  /* margin-top: 10px; */
+  margin-right: 150px;
+}
